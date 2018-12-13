@@ -3,10 +3,21 @@ body{
   opacity: ;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/glyphicons-halflings-regular.woff);
+}
+
 .Jo{
   font-family: "Open Sans";
   color: red;
 }
 h1{
-  font-family:
+  font-family: myFirstFont;
+}
+
+
+.img-circle {
+  width: 300px;
+  height: 300px;
 }
